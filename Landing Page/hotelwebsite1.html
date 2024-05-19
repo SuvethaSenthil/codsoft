@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <title>Hotel Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="hotelstyle.css">
+
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous"
+    referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+
+</head>
+
+<body>
+  <header class="header" id="navigation-menu">
+    <div class="container">
+      <nav>
+        
+
+        <ul class="nav-menu">
+          <li> <a href="#home" class="nav-link">Home</a> </li>
+          <li> <a href="#about" class="nav-link">About</a> </li>
+          <li> <a href="#rooms" class="nav-link">Rooms</a> </li>
+          <li> <a href="#restaurant" class="nav-link">Restaurant</a> </li>
+          <li> <a href="#gallery" class="nav-link">Gallery</a> </li>
+          <li> <a href="#contact" class="nav-link">Contact</a> </li>
+        </ul>
+
+        <div class="hambuger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </div>
+  </header>
+  
+
+  <section class="home" id="home">
+    <div class="head_container">
+      <div class="box">
+        <div class="text">
+          <h1>Find your next stay</h1>
+          <p>Enter dates to find the best prices</p>
+          <button>MORE INFO</button>
+        </div>
+      </div>
+      <div class="image">
+        <img src="h1.jpg" class="slide">
+      </div>
+      <div class="image_item">
+        <img src="h1.jpg" alt="" class="slide active" onclick="img('h1.jpg')">
+        <img src="h2.jpg" alt="" class="slide" onclick="img('h2.jpg')">
+        <img src="h3.jpg" alt="" class="slide" onclick="img('h3.jpg')">
+        <img src="h4.webp" alt="" class="slide" onclick="img('h4.webp')">
+      </div>
+    </div>
+  </section>
+  
+  <section class="book">
+    <div class="container flex">
+      <div class="input grid">
+        <div class="box">
+          <label>Check-in:</label>
+          <input type="date" placeholder="Check-in-Date">
+        </div>
+        <div class="box">
+          <label>Check-out:</label>
+          <input type="date" placeholder="Check-out-Date">
+        </div>
+        <div class="box">
+          <label>Adults:</label> <br>
+          <input type="number" placeholder="0">
+        </div>
+        <div class="box">
+          <label>Children:</label> <br>
+          <input type="number" placeholder="0">
+        </div>
+      </div>
+      <div class="search">
+        <input type="submit" value="SEARCH">
+      </div>
+    </div>
+  </section>
+  <section class="about top" id="about">
+    <div class="container flex">
+      <div class="left">
+        <div class="img">
+          <img src="about.jpg" alt="" class="image1">
+          <img src="about2.png" alt="" class="image2">
+        </div>
+      </div>
+      <div class="right">
+        <div class="heading">
+          <h5>RAISING COMFOMRT TO THE HIGHEST LEVEL</h5>
+          <h2>Welcome to  Hotel Resort</h2>
+          <p>Welcome to Hotel Resort! Our luxurious accommodations offer a perfect blend of comfort and style, ensuring a relaxing stay for all guests. From our spacious rooms with stunning views to our top-notch amenities, including a pool, spa, and gourmet dining options, we strive to provide an unforgettable experience for every visitor. Whether you're here for a romantic getaway, a family vacation, or a business trip, Hotel Resort is the perfect destination for your next stay. We look forward to making your time with us truly exceptional.</p>
+          <button class="btn1">READ MORE</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="wrapper top">
+    <div class="container">
+      <div class="text">
+        <h2>Our Amenities</h2>
+        <p> Our restaurants offer a range of amenities to enhance guests' experiences. From comfortable accommodations to convenient services, these amenities cater to various needs.<br> To unwind, guests can enjoy on-site dining options, such as restaurants serving local cuisine or cozy cafes for a quick bite. </p>
+
+        <div class="content">
+          <div class="box flex">
+            <i class="fas fa-swimming-pool"></i>
+            <span>Swimming pool</span>
+          </div>
+          <div class="box flex">
+            <i class="fas fa-dumbbell"></i>
+            <span>Gym & yogo</span>
+          </div>
+          <div class="box flex">
+            <i class="fas fa-spa"></i>
+            <span>Spa & massage</span>
+          </div>
+          <div class="box flex">
+            <i class="fas fa-ship"></i>
+            <span>Boat Tours</span>
+          </div>
+          <div class="box flex">
+            <i class="fas fa-swimmer"></i>
+            <span>Surfing Lessons</span>
+          </div>
+          <div class="box flex">
+            <i class="fas fa-microphone"></i>
+            <span>Conference room</span>
+          </div>
+          <div class="box flex">
+            <i class="fas fa-water"></i>
+            <span>Diving & smorking</span>
+          </div>
+          <div class="box flex">
+            <i class="fas fa-umbrella-beach"></i>
+            <span>Private Beach</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="room top" id="room">
+    <div class="container">
+      <div class="heading_top flex1">
+        <div class="heading">
+          <h5>RAISING COMFORT TO THE HIGHEST LEVEL</h5>
+          <h2>Rooms $ Suites</h2>
+        </div>
+        <div class="button">
+          <button class="btn1">VIEW ALL</button>
+        </div>
+      </div>
+
+      <div class="content grid">
+        <div class="box">
+          <div class="img">
+            <img src="https://b.zmtcdn.com/data/collections/2b9361aa328a43b08986f77bbec280bd_1709811922.png" alt="" >
+          </div>
+          <div class="text">
+            <h3>Superior Soble Rooms</h3>
+            <p> <span>$</span>129 <span>/per night</span> </p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img">
+            <img src="room2.jpg" alt="" >
+          </div>
+          <div class="text">
+            <h3>Superior Soble Rooms</h3>
+            <p> <span>$</span>129 <span>/per night</span> </p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img">
+            <img src="https://m.media-amazon.com/images/I/81WwJZA1PAL.jpg" alt="" >
+          </div>
+          <div class="text">
+            <h3>Superior Soble Rooms</h3>
+            <p> <span>$</span>129 <span>/per night</span> </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="wrapper wrapper2 top">
+    <div class="container">
+      <div class="text">
+        <div class="heading">
+          <h5>AT THE HEART OF COMMUNICATION</h5>
+          <h2>People Say</h2>
+        </div>
+
+        <div class="para">
+          <p>The rooms were spacious and spotless, with great décor and crisp bed sheets. The breakfast buffet was delicious, with a huge variety of options! The staff were attentive and went out of their way to ensure that we were comfortable. Nothing was too much trouble. </p>
+
+          <div class="box flex">
+            <div class="img">
+              <img src="girl.webp" alt="">
+            </div>
+            <div class="name">
+              <h5>KATE PALMER</h5>
+              <h5>IDAHO</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="restaurant top" id="restaurant">
+    <div class="container flex">
+      <div class="left">
+        <img src="roomres.jpg" alt="">
+      </div>
+      <div class="right">
+        <div class="text">
+          <h2>Our Restaurant</h2>
+          <p> Welcome to our restaurant, where we pride ourselves on delivering a delightful dining experience.</p>
+        </div>
+        <div class="accordionWrapper">
+          <div class="accordionItem open">
+            <h2 class="accordionIHeading">Italian Kitchen</h2>
+            <div class="accordionItemContent">
+              <p>Our kitchen is dedicated to serving up traditional Italian dishes with a modern twist. From classic pasta dishes to wood-fired pizzas and delectable desserts, each dish is crafted with care using the finest ingredients.
+              </p>
+            </div>
+          </div>
+          <div class="accordionItem open">
+            <h2 class="accordionIHeading">Mexican Kitchen</h2>
+            <div class="accordionItemContent">
+              <p>Our kitchen is known for its authentic Mexican dishes made with fresh, high-quality ingredients. From sizzling fajitas to savory tacos and spicy enchiladas, our menu offers a wide range of options to tantalize your taste buds.
+              </p>
+            </div>
+          </div>
+          <div class="accordionItem open">
+            <h2 class="accordionIHeading">Traditional Kitchen</h2>
+            <div class="accordionItemContent">
+              <p>Our kitchen is a haven for those seeking authentic flavors and homely comforts. Our menu is a tribute to time-honored recipes passed down through generations, prepared with love and care.
+              </p>
+            </div>
+          </div>
+          <div class="accordionItem open">
+            <h2 class="accordionIHeading">Chinese Kitchen</h2>
+            <div class="accordionItemContent">
+              <p>Our kitchen is renowned for its authentic Chinese cuisine prepared with a modern twist. From classic favorites like sweet and sour chicken to more adventurous dishes like Sichuan hot pot, our menu offers a wide array of options to suit every taste.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <section class="gallary mtop " id="gallary">
+    <div class="container">
+      <div class="heading_top flex1">
+        <div class="heading">
+          <h5>WELCOME TO OUR PHOTO GALLERY</h5>
+          <h2>Photo Gallery of Our Hotel</h2>
+        </div>
+        <div class="button">
+          <button class="btn1">VIEW GALLERY</button>
+        </div>
+      </div>
+
+      <div class="scroll-container">
+        <img src="gal1.webp" alt="" width="600" height="400">
+        <img src="gal2.png" alt="" width="600" height="400">
+        <img src="gal3.jpg" alt="" width="600" height="400">
+        <img src="gal4.avif" alt="" width="600" height="400">
+        <img src="gal5.avif" alt="" width="600" height="400">
+        <img src="gal6.jpg" alt="" width="600" height="400">
+        <img src="gal7.webp" alt="" width="600" height="400">
+      </div>
+    </div>
+  </section>
+
+  
+
+
+  <section class="map top">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14131.036667732067!2d85.32395955!3d27.69383745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2snp!4v1637755481449!5m2!1sen!2snp" width="600" height="450" style="border:0;"
+      allowfullscreen="" loading="lazy"></iframe>
+  </section>
+
+
+  <footer>
+    <div class="container grid top">
+      
+
+      <div class="box">
+        <h3>Recent News</h3>
+
+        <ul>
+          <li>Our Secret Island Boat Tour Is Just for You</li>
+          <li>Chill and Escape in Our Natural Shelters</li>
+          <li>September in Luviana Hotel</li>
+          <li>Live Music Concerts at Luviana</li>
+        </ul>
+      </div>
+
+      <div class="box">
+        <h3>For Customers</h3>
+        <ul>
+          <li>About Luviana</li>
+          <li>Customer Care/Help</li>
+          <li>Corporate Accounts</li>
+          <li>Financial Information</li>
+          <li>Terms & Conditions</li>
+        </ul>
+      </div>
+
+      <div class="box">
+        <h3>Contact Us</h3>
+
+        <ul>
+          <li>451 Anna Nagar,Chennai,TamilNadu</li>
+          <li><i class="far fa-envelope"></i>Luviana@gmail.com </li>
+          <li><i class="far fa-phone-alt"></i>123 456 7898 </li>
+          <li><i class="far fa-phone-alt"></i>123 456 7898 </li>
+          <li><i class="far fa-comments"></i>24/ 7 Customer Services </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
